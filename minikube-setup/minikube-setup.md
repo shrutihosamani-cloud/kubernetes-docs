@@ -144,6 +144,11 @@ kubectl expose deployment hello-minikube --type=NodePort --port=8080
 kubectl get services hello-minikube
 ```
 
+20) getting the url of deployment 
+```sh
+minikube service hello-minikube --url
+```
+
 20) Alternatively, use kubectl to forward the port:
 
 ```sh 
